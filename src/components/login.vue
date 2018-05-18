@@ -65,7 +65,7 @@ export default {
       }else if(this.code==""){
         alert("验证码不能为空");
       }else{
-
+        this.$router.push('/main');
       }
     }
   }
